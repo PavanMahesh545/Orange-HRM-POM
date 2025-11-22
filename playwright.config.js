@@ -37,7 +37,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
       baseURL: process.env.ORANGE_URL,
     trace: 'on-first-retry',
-  },
+  },  
 
   /* Configure projects for major browsers */
   projects: [
